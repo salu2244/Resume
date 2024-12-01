@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #1e293b;
+    padding: 1rem 2rem;
+}
+nav h2 {
+    color: #ffffff;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+.about {
+    display: flex;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    align-items: center;
+}
+.about img {
+    width: 150px; /* Resize image */
+    border-radius: 10px;
+}
+.skills {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+.skills-section {
+    margin-bottom: 1rem;
+}
+.education {
+    padding: 4rem 2rem;
+}
+.education-item {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.contact {
+    background: #1e293b;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
